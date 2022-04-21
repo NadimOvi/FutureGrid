@@ -1,12 +1,21 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
         <!-- Customize your theme here. -->
 
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryDark">@color/offWhite</item>
-        <item name="colorAccent">@color/purple_500</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowContentTransitions">true</item>
 
+    </style>
+
+    <style name="DemoTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <!--<style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
@@ -17,4 +26,8 @@
         <item name="android:windowContentTransitions">true</item>
 
     </style>-->
+
+    <style name="fabtheme" parent="Widget.Design.FloatingActionButton">
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
 </resources>

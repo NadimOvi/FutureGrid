@@ -1,9 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EDF2F6"
     tools:context=".DashboardActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment_container"
+            android:layout_above="@+id/coordinator">
+
+        </FrameLayout>
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomappbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:fabAlignmentMode="center"
+            app:fabCradleVerticalOffset="8dp"
+            style="@style/Widget.MaterialComponents.BottomAppBar"
+            app:fabCradleMargin="8dp"
+            android:layout_alignParentBottom="true"
+
+            android:background="@color/white"
+            android:layout_gravity="bottom">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:itemIconTint="@drawable/bottom_nav_icon_color"
+                app:itemTextColor="@drawable/bottom_nav_icon_color"
+                android:background="@drawable/round_corner"
+                android:backgroundTint="@color/white"
+                app:itemRippleColor="@android:color/transparent"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:elevation="2dp"
+                android:layout_marginEnd="20dp"
+                app:itemIconSize="20dp"
+
+                app:menu="@menu/menu" />
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+</RelativeLayout>

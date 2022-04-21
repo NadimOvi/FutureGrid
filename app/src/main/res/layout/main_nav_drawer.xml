@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDF2F6"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ClickClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:src="@drawable/ic_baseline_close_24" />
+
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nadim Mahmud"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/white"
+        android:padding="12dp"
+
+        android:layout_marginStart="16sp"/>-->
+
+    <ImageView
+        android:id="@+id/splashImage1"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/main_logo" />
+    <!--<TextView
+        android:id="@+id/imageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="Dog Breed Identifier"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+
+        />-->
+  <!--  <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#636363"/>-->
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/clickProfile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="     Profile"
+            android:drawableLeft="@drawable/ic_profile_icon"
+
+            android:textSize="16sp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/white"
+            android:padding="12dp"
+            android:layout_marginStart="16sp"/>
+
+    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/clickShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="     Share App"
+                android:drawableLeft="@drawable/ic_dashboard_icon"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:layout_marginStart="16sp"/>
+        </LinearLayout>
+
+
+        <!--<LinearLayout
+            android:id="@+id/clickFollowFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="     Follow us on facebook"
+                android:drawableLeft="@drawable/ic_share_icon"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="@color/white"
+                android:padding="12dp"
+
+                android:layout_marginStart="16sp"/>
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/clickContactUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="     Contact us"
+                android:drawableLeft="@drawable/ic_share_icon"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="@color/black"
+                android:padding="12dp"
+                android:layout_marginStart="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/clickAboutApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="     About this app"
+                android:drawableLeft="@drawable/ic_notification_icon"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="@color/black"
+                android:padding="12dp"
+
+                android:layout_marginStart="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rateThisApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="     Rate This App"
+                android:drawableLeft="@drawable/ic_profile_icon"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="@color/black"
+                android:padding="12dp"
+
+                android:layout_marginStart="16sp"/>
+        </LinearLayout>
+        <!--<TextView
+            android:id="@+id/clickLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="     Log out"
+            android:drawableLeft="@drawable/ic_logout_icon"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/white"
+            android:padding="12dp"
+
+            android:layout_marginStart="16sp"/>-->
+
+
+    </LinearLayout>
+
+    <!--<androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Powered by"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="120dp"
+            android:src="@drawable/logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+</LinearLayout>

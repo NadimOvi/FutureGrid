@@ -10,4 +10,49 @@
     <color name="offWhite">#D3D3D3</color>
     <color name="orange">#FA8906</color>
     <color name="green">#7EA52E</color>
+    <color name="textblue">#0085FF</color>
+    <color name="colorPrimary">#15282E</color>
+    <color name="colorPrimaryDark">#15282E</color>
+    <color name="colorAccent">#15282E</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBtn">#2988C9</color>
+    <color name="colorLight">#BCBCBC</color>
+    <color name="colorDark">#383636</color>
+    <color name="colorRed">#CC031D</color>
+    <color name="colorGreen">#199E83</color>
+    <color name="colorAsh">#645F5F</color>
+    <color name="colorBackLight">#D3D1D1</color>
+    <color name="textColor">#373434</color>
+    <color name="budgetColor">#FB6F6B</color>
+    <color name="daysColor">#772EFF</color>
+    <color name="defaultColor">#8C8C8C</color>
+    <color name="backgroundColor">#10243F</color>
+    <color name="trainningTitleColor">#FB6F6B</color>
+    <color name="expertColor">#ccf6e1</color>
+    <color name="active">#01AA2D</color>
+    <color name="ongoing">#01AA2D</color>
+    <color name="drafted">#BDBDBD</color>
+    <color name="awarded">#45B9F6</color>
+    <color name="submitted">#D87B09</color>
+    <color name="completed">#042C5E</color>
+    <color name="buttonColor">#39B57D</color>
+    <color name="greenTextColor">#12633F</color>
+    <color name="textBox">#10243F</color>
+    <color name="light_Background">#ecf0f3</color>
+
+    <color name="transparentcolor">#0000ffff</color>
+    <color name="BeautifulProgressDialogBg">#0DACB6</color>
+
+
+
+
+    ///////
+    <color name="textColorGreen">#14806A</color>
+    <color name="mainColor">#15282E</color>
+    <color name="greenText">#39B57D</color>
+    <color name="bottom_nav_selected_text">#FFFFFF</color>
+    <color name="bottom_nav_unselected_text">#15282E</color>
+
+    <color name="bottom_nav_selected_icon">#0084FF</color>
+    <color name="bottom_nav_unselected_icon">#7B7FAE</color>
 </resources>
